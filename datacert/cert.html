@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+
+<title>Data certification</title>
+<meta http-equiv="content-type"content="text/html; charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script src="js/browse.js"></script>
+
+</head>
+
+<body >
+
+<div class="main" >
+	
+		<div class="input">
+			Upload data file &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" id="browse" name="fileupload" 
+									style="display:none"onChange="Handlechange();"/>										
+			<input type="text" id="filename" readonly="true"/>
+			<input type="button" value="Browse" id="fakeBrowse" onclick="HandleBrowseClick();"/>
+				<br><br>
+			Upload control file &nbsp; <input type="file" id="browse1" name="fileupload" style="display: none" onChange="Handlechange1();"/>
+			<input type="text" id="filename1" readonly="true"/>
+			<input type="button" value="Browse" id="fakeBrowse1" onclick="HandleBrowseClick1();"/>
+        	</div>
+			
+			<hr style="background-color: #d6d6d6; height: 1px; border: 0;">				
+
+       <div class="clr"></div>
+   
+  
+
+</div>
+
+</body>
+
+</html>
